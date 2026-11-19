@@ -1,0 +1,13 @@
+jarvis-tools==2026.6.12
+lightgbm==4.7.0
+matminer==0.10.1
+matplotlib==3.11.2
+numpy==2.5.4
+pandas==2.3.3
+pymatgen==2026.10.24
+requests==2.34.2
+scikit-learn==1.9.1
+scipy==1.18.1
+seaborn==0.13.2
+shap==0.54.1
+xgboost==3.4.1

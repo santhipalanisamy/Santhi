@@ -1,0 +1,151 @@
+{
+  "data": {
+    "n": 4604,
+    "n_features": 154,
+    "metals": 2450,
+    "gap_mean": 0.9759513466550827,
+    "gap_max": 11.7
+  },
+  "summary_mean_over_folds": {
+    "M1_RandomForest": {
+      "fit_s": 3.74,
+      "raw_MAE": 0.4541,
+      "raw_NLL": 1.9078,
+      "raw_coverage90": 0.9689,
+      "raw_mean_width90": 2.3216,
+      "raw_spearman_err_sigma": 0.8813,
+      "raw_miscalibration_area": 0.1933,
+      "recal_NLL": 3.7792,
+      "recal_coverage90": 0.9299,
+      "recal_mean_width90": 1.708,
+      "recal_spearman_err_sigma": 0.8813,
+      "recal_miscalibration_area": 0.1168,
+      "conformal_coverage90": 0.8999,
+      "conformal_width90": 1.2893,
+      "MAE_in_domain": 0.451,
+      "MAE_out_domain": 0.5175,
+      "frac_out_domain": 0.053,
+      "recal_a": 0.7344,
+      "recal_b": 0.0
+    },
+    "M2_XGB_BootstrapEnsemble": {
+      "fit_s": 17.16,
+      "raw_MAE": 0.4328,
+      "raw_NLL": 6.3346,
+      "raw_coverage90": 0.5971,
+      "raw_mean_width90": 0.6022,
+      "raw_spearman_err_sigma": 0.7958,
+      "raw_miscalibration_area": 0.1606,
+      "recal_NLL": 0.6481,
+      "recal_coverage90": 0.9233,
+      "recal_mean_width90": 1.8749,
+      "recal_spearman_err_sigma": 0.7958,
+      "recal_miscalibration_area": 0.1321,
+      "conformal_coverage90": 0.8975,
+      "conformal_width90": 1.3934,
+      "MAE_in_domain": 0.4305,
+      "MAE_out_domain": 0.4785,
+      "frac_out_domain": 0.053,
+      "recal_a": 3.1102,
+      "recal_b": 0.0
+    },
+    "M3_LGBM_Quantile": {
+      "fit_s": 14.78,
+      "raw_MAE": 0.4206,
+      "raw_NLL": 1.5116,
+      "raw_coverage90": 0.8923,
+      "raw_mean_width90": 1.7565,
+      "raw_spearman_err_sigma": 0.7099,
+      "raw_miscalibration_area": 0.1565,
+      "recal_NLL": 0.7434,
+      "recal_coverage90": 0.9233,
+      "recal_mean_width90": 2.0211,
+      "recal_spearman_err_sigma": 0.7099,
+      "recal_miscalibration_area": 0.1909,
+      "conformal_coverage90": 0.9031,
+      "conformal_width90": 1.8596,
+      "MAE_in_domain": 0.4214,
+      "MAE_out_domain": 0.4173,
+      "frac_out_domain": 0.053,
+      "recal_a": 1.0967,
+      "recal_b": 0.0287
+    },
+    "M4_GaussianProcess": {
+      "fit_s": 14.32,
+      "raw_MAE": 0.5146,
+      "raw_NLL": 1.3055,
+      "raw_coverage90": 0.907,
+      "raw_mean_width90": 2.9977,
+      "raw_spearman_err_sigma": -0.094,
+      "raw_miscalibration_area": 0.1727,
+      "recal_NLL": 1.2948,
+      "recal_coverage90": 0.9057,
+      "recal_mean_width90": 2.8938,
+      "recal_spearman_err_sigma": -0.094,
+      "recal_miscalibration_area": 0.1697,
+      "conformal_coverage90": 0.8999,
+      "conformal_width90": 2.1186,
+      "MAE_in_domain": 0.5108,
+      "MAE_out_domain": 0.5834,
+      "frac_out_domain": 0.053,
+      "recal_a": 0.2941,
+      "recal_b": 0.6127
+    },
+    "M5_MLP_DeepEnsemble": {
+      "fit_s": 3.42,
+      "raw_MAE": 0.4691,
+      "raw_NLL": 4046095558.5557,
+      "raw_coverage90": 0.5864,
+      "raw_mean_width90": 0.5831,
+      "raw_spearman_err_sigma": 0.7585,
+      "raw_miscalibration_area": 0.2198,
+      "recal_NLL": 111474357.7117,
+      "recal_coverage90": 0.944,
+      "recal_mean_width90": 2.6124,
+      "recal_spearman_err_sigma": 0.7585,
+      "recal_miscalibration_area": 0.1787,
+      "conformal_coverage90": 0.9092,
+      "conformal_width90": 1.7088,
+      "MAE_in_domain": 0.4715,
+      "MAE_out_domain": 0.4238,
+      "frac_out_domain": 0.053,
+      "recal_a": 4.4005,
+      "recal_b": 0.019
+    }
+  },
+  "ood_leave_cluster_out_mean": {
+    "M1_RandomForest": {
+      "MAE": 0.7448,
+      "conformal_coverage90": 0.8096,
+      "recal_coverage90": 0.8809
+    },
+    "M2_XGB_BootstrapEnsemble": {
+      "MAE": 0.7081,
+      "conformal_coverage90": 0.7758,
+      "recal_coverage90": 0.813
+    },
+    "M3_LGBM_Quantile": {
+      "MAE": 0.6266,
+      "conformal_coverage90": 0.8591,
+      "recal_coverage90": 0.8739
+    }
+  },
+  "screening_PV_window_1.1-1.8eV": {
+    "n_true_in_window": 432,
+    "base_rate": 0.09383145091225022,
+    "topN": {
+      "50": {
+        "precision_by_mean_closeness": 0.32,
+        "precision_by_probability_in_window": 0.8
+      },
+      "100": {
+        "precision_by_mean_closeness": 0.3,
+        "precision_by_probability_in_window": 0.74
+      },
+      "200": {
+        "precision_by_mean_closeness": 0.39,
+        "precision_by_probability_in_window": 0.68
+      }
+    }
+  }
+}

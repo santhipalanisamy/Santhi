@@ -1,0 +1,42 @@
+11:03:18 data {'n': 4604, 'n_features': 154, 'metals': 2450, 'gap_mean': 0.9759513466550827, 'gap_max': 11.7}
+11:03:22 fold 0 M1_RandomForest MAE=0.440 cov_raw=0.96 cov_cal=0.91 cov_conf=0.88
+11:03:39 fold 0 M2_XGB_BootstrapEnsemble MAE=0.412 cov_raw=0.60 cov_cal=0.89 cov_conf=0.88
+11:03:53 fold 0 M3_LGBM_Quantile MAE=0.399 cov_raw=0.90 cov_cal=0.91 cov_conf=0.91
+11:04:08 fold 0 M4_GaussianProcess MAE=0.491 cov_raw=0.92 cov_cal=0.92 cov_conf=0.91
+11:04:12 fold 0 M5_MLP_DeepEnsemble MAE=0.454 cov_raw=0.63 cov_cal=0.95 cov_conf=0.92
+11:04:16 fold 1 M1_RandomForest MAE=0.449 cov_raw=0.97 cov_cal=0.92 cov_conf=0.91
+11:04:34 fold 1 M2_XGB_BootstrapEnsemble MAE=0.436 cov_raw=0.59 cov_cal=0.92 cov_conf=0.90
+11:04:48 fold 1 M3_LGBM_Quantile MAE=0.423 cov_raw=0.89 cov_cal=0.93 cov_conf=0.90
+11:05:03 fold 1 M4_GaussianProcess MAE=0.510 cov_raw=0.90 cov_cal=0.90 cov_conf=0.90
+11:05:06 fold 1 M5_MLP_DeepEnsemble MAE=0.481 cov_raw=0.52 cov_cal=0.93 cov_conf=0.91
+11:05:10 fold 2 M1_RandomForest MAE=0.493 cov_raw=0.96 cov_cal=0.93 cov_conf=0.88
+11:05:29 fold 2 M2_XGB_BootstrapEnsemble MAE=0.472 cov_raw=0.57 cov_cal=0.93 cov_conf=0.89
+11:05:45 fold 2 M3_LGBM_Quantile MAE=0.455 cov_raw=0.88 cov_cal=0.91 cov_conf=0.90
+11:05:59 fold 2 M4_GaussianProcess MAE=0.566 cov_raw=0.88 cov_cal=0.89 cov_conf=0.88
+11:06:02 fold 2 M5_MLP_DeepEnsemble MAE=0.503 cov_raw=0.59 cov_cal=0.95 cov_conf=0.89
+11:06:06 fold 3 M1_RandomForest MAE=0.442 cov_raw=0.98 cov_cal=0.93 cov_conf=0.91
+11:06:23 fold 3 M2_XGB_BootstrapEnsemble MAE=0.424 cov_raw=0.62 cov_cal=0.95 cov_conf=0.91
+11:06:38 fold 3 M3_LGBM_Quantile MAE=0.419 cov_raw=0.90 cov_cal=0.93 cov_conf=0.89
+11:06:51 fold 3 M4_GaussianProcess MAE=0.501 cov_raw=0.91 cov_cal=0.91 cov_conf=0.89
+11:06:55 fold 3 M5_MLP_DeepEnsemble MAE=0.432 cov_raw=0.64 cov_cal=0.97 cov_conf=0.93
+11:06:58 fold 4 M1_RandomForest MAE=0.447 cov_raw=0.97 cov_cal=0.96 cov_conf=0.92
+11:07:14 fold 4 M2_XGB_BootstrapEnsemble MAE=0.419 cov_raw=0.61 cov_cal=0.94 cov_conf=0.90
+11:07:28 fold 4 M3_LGBM_Quantile MAE=0.407 cov_raw=0.89 cov_cal=0.94 cov_conf=0.91
+11:07:43 fold 4 M4_GaussianProcess MAE=0.505 cov_raw=0.92 cov_cal=0.91 cov_conf=0.92
+11:07:46 fold 4 M5_MLP_DeepEnsemble MAE=0.474 cov_raw=0.56 cov_cal=0.93 cov_conf=0.90
+11:07:50 OOD cluster 0 M1_RandomForest 0.675 0.85
+11:08:05 OOD cluster 0 M2_XGB_BootstrapEnsemble 0.673 0.783
+11:08:20 OOD cluster 0 M3_LGBM_Quantile 0.622 0.817
+11:08:24 OOD cluster 1 M1_RandomForest 0.352 0.969
+11:08:42 OOD cluster 1 M2_XGB_BootstrapEnsemble 0.369 0.952
+11:08:56 OOD cluster 1 M3_LGBM_Quantile 0.189 0.962
+11:09:00 OOD cluster 2 M1_RandomForest 1.833 0.356
+11:09:14 OOD cluster 2 M2_XGB_BootstrapEnsemble 1.735 0.368
+11:09:28 OOD cluster 2 M3_LGBM_Quantile 1.658 0.661
+11:09:31 OOD cluster 3 M1_RandomForest 0.719 0.881
+11:09:47 OOD cluster 3 M2_XGB_BootstrapEnsemble 0.635 0.782
+11:10:02 OOD cluster 3 M3_LGBM_Quantile 0.624 0.91
+11:10:06 OOD cluster 4 M1_RandomForest 0.144 0.992
+11:10:23 OOD cluster 4 M2_XGB_BootstrapEnsemble 0.129 0.993
+11:10:38 OOD cluster 4 M3_LGBM_Quantile 0.04 0.946
+11:10:38 done
